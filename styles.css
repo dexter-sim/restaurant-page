@@ -1,0 +1,60 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    text-align: center;
+    color: white
+}
+
+body {
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2560px 1440px;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+button {
+    border: 0px;
+    font-size: 15px;
+    background-color: black;
+    height: 35px;
+    width: 100px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    box-shadow: inset 0 -4px 0 0 pink;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dishMenu, .box, .homeScreen {
+    border: 4px pink solid;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    opacity: 96%;
+}
+
+.dishMenu div {
+    background-color: black;
+}
